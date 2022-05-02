@@ -1,0 +1,25 @@
+#stepOne{
+    padding-top: 90px;
+}
+#stepThree{
+    padding-top: 90px;
+}
+.steps{
+    animation-name: slideup;
+    animation-duration: 1s; 
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    padding-bottom: 100px !important;
+    padding-top: 150px !important;
+}
+#stepTwo{
+    padding-top: 90px;
+    display: none;    
+}
+@keyframes slideup{
+    from{
+        margin-top: 500px;
+    }to{
+        margin-top: 0px;
+    }
+}
